@@ -1,0 +1,41 @@
+﻿@{
+	ViewBag.Title = "Enter search";
+}
+
+<script>
+
+	var StringResources = new StringResources();
+
+</script>
+
+<div class="form-group">
+
+	<h3>@ViewBag.Title</h3>
+
+	<div>
+		<p id="languagehint"></p>
+	</div>
+
+	<div>
+		<input type="text" id="inputSearch" class="form-control">
+	</div>
+
+	<div id="myProgress">
+		<div id="myBar"></div>
+	</div>
+
+	<div id="messageDiv">
+		<table class="simpleTable">
+			<tr>
+				<td id="messagetext"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="fuzzy">
+		<h5>Did you mean</h5>
+		<div id="fuzzyResult"></div>
+	</div>
+
+	<div id="tableDiv"></div>
+</div>

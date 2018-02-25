@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gdDictionaryWebApp", "gdDictionaryWebApp\gdDictionaryWebApp.csproj", "{61A38C2B-4044-4B1E-A671-6085F1C09DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E5BAC5F3-DC32-4A1E-99A7-3DC9BBC9289D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A9C7F0AF-6589-4580-938F-C7FBB58B3256}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{4FA95007-DDFA-4183-99D4-7EA020EB15BD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\gdDictionaryWebApp.json = PublishScripts\Templates\gdDictionaryWebApp.json
+		PublishScripts\Templates\gdDictionaryWebApp.param.dev.json = PublishScripts\Templates\gdDictionaryWebApp.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A38C2B-4044-4B1E-A671-6085F1C09DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A38C2B-4044-4B1E-A671-6085F1C09DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A38C2B-4044-4B1E-A671-6085F1C09DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A38C2B-4044-4B1E-A671-6085F1C09DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9C7F0AF-6589-4580-938F-C7FBB58B3256} = {E5BAC5F3-DC32-4A1E-99A7-3DC9BBC9289D}
+		{4FA95007-DDFA-4183-99D4-7EA020EB15BD} = {E5BAC5F3-DC32-4A1E-99A7-3DC9BBC9289D}
+	EndGlobalSection
+EndGlobal

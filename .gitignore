@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/gdDictionaryWebApp/gdDictionaryWebApp/bin
+/gdDictionaryWebApp/gdDictionaryWebApp/obj
+/gdDictionaryWebApp/packages

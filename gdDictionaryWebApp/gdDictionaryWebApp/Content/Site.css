@@ -1,0 +1,165 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 600px;
+}
+
+#result {
+	margin-top: 20px;
+}
+
+#languagehint {
+	color: gray;
+	font-size: inherit;
+	font-style: italic;
+	margin-top: 8px;
+}
+
+#fuzzy {
+	margin-top: 15px;
+}
+
+#fuzzy h5 {
+	font-style: italic;
+}
+
+#fuzzy.Hidden {
+	display: none;
+}
+
+/* Table */
+
+#tableDiv {
+	margin-top: 12px;
+}
+
+#tableDiv.Visible {
+	display: block;	
+}
+
+#table.Hidden {
+	display: none;
+}
+
+.styledtable {
+     border-collapse: collapse;
+	 max-width: 600px;
+	 width: 100%;
+}
+
+.styledtable th, td {
+    border: 0px solid black;
+}
+
+.styledtableheadrow{
+	background: rgb(0, 153, 204);
+	color: white;
+}
+
+.styledtableheadrow td{
+	padding: 10px 8px 10px 8px;
+}
+
+.styledtablebodycell{
+	padding: 9px;
+	font-family: Noto Serif;
+	font-size: 10pt;
+}
+
+.zebra {
+	background-color: #f2f2f2;
+}
+
+.styledtablebodyrow:hover{
+	background-color:rgb(255, 255, 204);
+}
+
+.hightlighted {
+	color: red;
+}
+
+/* simple table */
+.simpleTable {
+	border-collapse: collapse;
+}
+
+.simpleTable th, td {
+    border: 0px solid black;
+}
+
+/* menu table */
+.menuTable {
+	border-collapse: collapse;
+}
+
+.menuTable th, td {
+    border: 0px solid black;
+	padding: 0px;
+}
+
+.menuTable tr td:first-child {
+	width: 15px;
+}
+
+#myProgress {
+	display: none;
+	
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+  margin-top: 12px;
+  max-width: 600px;
+}
+
+#myBar {
+  position: absolute;
+  width: 0%;
+  height:100%;
+  background-color: #4CAF50;
+  
+}
+
+#inputSearch{
+	width:100%;
+}
+
+#messageDiv{
+	margin-top:12px;
+}
+
+.fuzzytext1{
+	font-size: x-large;
+}
+
+.fuzzytext2{
+	font-size: medium;
+}
+
+.fuzzytext3{
+	font-size: small;
+}
+
+#messagetext {
+	font-style : italic;
+	font-size: 12pt;
+}
